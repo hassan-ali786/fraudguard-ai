@@ -1,48 +1,134 @@
 # Fraud Detection using Machine Learning
 
-##  Project Overview
-This project detects fraudulent credit card transactions using machine learning on a highly imbalanced dataset. The focus is on precision-recall evaluation and real-world fraud detection trade-offs.
+A machine learning project that detects fraudulent credit card transactions using a highly imbalanced dataset.  
+The project focuses on precision-recall evaluation and highlights real-world trade-offs in fraud detection.
 
-##  Dataset
-- Source: Kaggle – Credit Card Fraud Detection Dataset
-- Features:
-  - Time
-  - Amount
-  - PCA-transformed anonymized features (V1–V28)
-- Target:
-  - Class (0 = Legit, 1 = Fraud)
+---
 
-##  Tools & Technologies
-- Python
-- Pandas, NumPy
-- Scikit-learn
-- Matplotlib
-- Jupyter Notebook
+## Project Overview
 
-##  Methodology
-- Analyzed class imbalance
-- Used stratified train-test split
-- Applied class weighting
-- Trained:
-  - Logistic Regression
-  - Random Forest Classifier
-- Evaluated using Precision, Recall, and F1-score
+This project predicts fraudulent transactions:
 
-##  Trade-offs Discussion
-- Accuracy is misleading for fraud detection
-- Precision reduces false fraud alerts
-- Recall ensures fraudulent transactions are caught
-- Logistic Regression is interpretable
-- Random Forest captures complex patterns but is less explainable
+- Handle class imbalance in credit card transaction data  
+- Train and evaluate classification models  
+- Focus on **precision** and **recall** rather than accuracy  
+- Analyze trade-offs between false positives and false negatives  
 
-##  How to Run
-1. Download `creditcard.csv` from Kaggle
-2. Place it in the project folder
-3. Run the Jupyter Notebook
+---
 
-   ##  Installation
+## Dataset Information
+
+- **Source:** Kaggle – Credit Card Fraud Detection Dataset  
+- **Features:**  
+  - Time  
+  - Amount  
+  - PCA-transformed anonymized features (V1–V28)  
+- **Target:** Class  
+  - `0` → Legit  
+  - `1` → Fraud  
+
+---
+
+## Tools & Technology Stack
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)  
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)  
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)  
+![Matplotlib](https://img.shields.io/badge/Matplotlib-007D9C?style=flat&logo=matplotlib&logoColor=white)  
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)  
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)  
+
+---
+
+## Methodology
+
+1. Analyze class imbalance and data distribution  
+2. Apply stratified train-test split  
+3. Use class weighting for imbalanced data  
+4. Train models:  
+   - Logistic Regression  
+   - Random Forest Classifier  
+5. Evaluate models using **Precision**, **Recall**, and **F1-score**  
+
+---
+
+## Trade-offs Discussion
+
+- **Accuracy** is misleading for imbalanced datasets  
+- **Precision** reduces false fraud alerts  
+- **Recall** ensures fraudulent transactions are detected  
+- Logistic Regression is interpretable  
+- Random Forest captures complex patterns but is less explainable  
+
+---
+
+## Project Structure
+
+```bash
+fraud-detection-ml/
+├── data/
+│   └── creditcard.csv
+├── notebooks/
+│   └── Fraud_Detection.ipynb
+├── requirements.txt
+├── README.md
+└── .gitignore
+```
+
+---
+
+## How to Run
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Hassan-Ali786/fraud-detection-ml.git
+cd fraud-detection-ml
+```
+
+2. Install dependencies:
+
 ```bash
 pip install -r requirements.txt
+```
 
-##  Author
-Hassan Ali
+3. Download the dataset from Kaggle (`creditcard.csv`) and place it in the `data/` folder  
+
+4. Open and run the notebook:
+
+```bash
+jupyter notebook notebooks/Fraud_Detection.ipynb
+```
+
+5. Run all cells to reproduce analysis, model training, and evaluation  
+
+---
+
+## Key Learnings
+
+- Handling imbalanced datasets effectively  
+- Understanding precision-recall trade-offs in fraud detection  
+- Comparison of Logistic Regression vs Random Forest for classification  
+- Evaluating models beyond accuracy using business-critical metrics  
+
+---
+
+## Future Improvements
+
+- Experiment with XGBoost and LightGBM for better performance  
+- Implement anomaly detection techniques for fraud  
+- Deploy a real-time fraud detection web app  
+- Visualize feature importance and transaction patterns  
+
+---
+
+## Author
+
+**Hassan Ali**  
+Aspiring Data Scientist & Machine Learning Engineer  
+
+GitHub: https://github.com/hassan-ali786  
+
+---
+
+⭐ Feel free to fork this repository and explore further improvements!
