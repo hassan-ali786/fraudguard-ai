@@ -125,7 +125,7 @@ jupyter notebook notebooks/Fraud_Detection.ipynb
 ## Author
 
 **Hassan Ali**  
-Aspiring Data Scientist & Machine Learning Engineer  
+Data Scientist & Machine Learning Engineer  
 
 GitHub: https://github.com/hassan-ali786  
 
