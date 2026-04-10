@@ -82,7 +82,7 @@ fraud-detection-ml/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Hassan-Ali786/fraud-detection-ml.git
+git clone https://github.com/hassan-ali786/fraud-detection-ml.git
 cd fraud-detection-ml
 ```
 
