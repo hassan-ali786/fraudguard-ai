@@ -38,8 +38,6 @@ This project predicts fraudulent transactions:
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)  
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)  
 
----
-
 ## Methodology
 
 1. Analyze class imbalance and data distribution  
