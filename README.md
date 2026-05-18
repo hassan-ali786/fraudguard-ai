@@ -65,7 +65,7 @@ This project predicts fraudulent transactions:
 ```bash
 fraud-detection-ml/
 ├── notebooks/
-│   └── Fraud_Detection.ipynb
+│   └── Fraud_Detection_Imbalanced_Data.ipynb
 ├── requirements.txt
 ├── README.md
 └── .gitignore
