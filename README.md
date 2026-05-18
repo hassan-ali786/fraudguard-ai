@@ -64,8 +64,6 @@ This project predicts fraudulent transactions:
 
 ```bash
 fraud-detection-ml/
-├── data/
-│   └── creditcard.csv
 ├── notebooks/
 │   └── Fraud_Detection.ipynb
 ├── requirements.txt
