@@ -63,7 +63,7 @@ This project predicts fraudulent transactions:
 ## Project Structure
 
 ```bash
-fraud-detection-ml/
+fraud-detection-imbalanced-data/
 ├── notebooks/
 │   └── Fraud_Detection_Imbalanced_Data.ipynb
 ├── requirements.txt
