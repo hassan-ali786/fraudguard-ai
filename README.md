@@ -78,7 +78,7 @@ fraud-detection-imbalanced-data/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/hassan-ali786/fraud-detection-ml.git
+git clone https://github.com/hassan-ali786/fraud-detection-imbalanced-data.git
 cd fraud-detection-ml
 ```
 
