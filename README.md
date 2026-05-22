@@ -79,7 +79,7 @@ fraud-detection-imbalanced-data/
 
 ```bash
 git clone https://github.com/hassan-ali786/fraud-detection-imbalanced-data.git
-cd fraud-detection-ml
+cd fraud-detection-imbalanced-data
 ```
 
 2. Install dependencies:
