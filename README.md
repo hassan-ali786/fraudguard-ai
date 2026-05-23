@@ -93,7 +93,7 @@ pip install -r requirements.txt
 4. Open and run the notebook:
 
 ```bash
-jupyter notebook notebooks/Fraud_Detection.ipynb
+jupyter notebook notebooks/Fraud_Detection_Imbalanced_Data.ipynb
 ```
 
 5. Run all cells to reproduce analysis, model training, and evaluation  
