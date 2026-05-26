@@ -5,6 +5,12 @@ The project focuses on precision-recall evaluation and highlights real-world tra
 
 ---
 
+## Video Demo
+
+<video src="https://github.com/user-attachments/assets/ce78b163-c052-4ab6-bfeb-622dee15d6ab" width="100%" controls></video>
+
+---
+
 ## Project Overview
 
 This project predicts fraudulent transactions:
