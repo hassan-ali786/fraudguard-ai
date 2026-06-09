@@ -129,8 +129,6 @@ jupyter notebook notebooks/Fraud_Detection_Imbalanced_Data.ipynb
 **Hassan Ali**  
 Data Scientist & Machine Learning Engineer  
 
-GitHub: https://github.com/hassan-ali786  
-
 ---
 
 ⭐ Feel free to fork this repository and explore further improvements!
