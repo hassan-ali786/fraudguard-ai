@@ -127,7 +127,7 @@ jupyter notebook notebooks/Fraud_Detection_Imbalanced_Data.ipynb
 ## Author
 
 **Hassan Ali**  
-Data Scientist & Machine Learning Engineer  
+Data Scientist & ML Engineer  
 
 ---
 
