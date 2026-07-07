@@ -69,7 +69,7 @@ This project predicts fraudulent transactions:
 ## Project Structure
 
 ```bash
-fraud-detection-imbalanced-data/
+fraudguard-ai/
 ├── notebooks/
 │   └── Fraud_Detection_Imbalanced_Data.ipynb
 ├── requirements.txt
@@ -84,7 +84,7 @@ fraud-detection-imbalanced-data/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/hassan-ali786/fraud-detection-imbalanced-data.git
+git clone https://github.com/hassan-ali786/fraudguard-ai
 cd fraud-detection-imbalanced-data
 ```
 
